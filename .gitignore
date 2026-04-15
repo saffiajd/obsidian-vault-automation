@@ -1,0 +1,6 @@
+*.log
+*.lock
+mtime.json
+__pycache__/
+*.pyc
+.DS_Store

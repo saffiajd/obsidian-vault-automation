@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "vault_path": "__VAULT_PATH__",
+  "topics_folder": "Topics",
+  "skip_folders": [".obsidian", ".git", ".smart-env", "Templates", "Topics"],
+  "lockfile": "~/.config/topic-linker/linker.lock",
+  "mtime_db": "~/.config/topic-linker/mtime.json",
+  "log_dir": "~/claude-vault/",
+  "false_positive_words": [],
+  "thresholds": {
+    "linker_error_warn": 1,
+    "linker_error_crit": 10,
+    "topic_freshness_info_days": 30,
+    "export_freshness_warn_days": 7,
+    "export_freshness_crit_days": 14,
+    "session_freshness_warn_days": 7,
+    "session_freshness_crit_days": 14,
+    "orphan_pct_warn": 5,
+    "orphan_pct_crit": 20,
+    "orphan_pct_warn_small_vault": 15,
+    "small_vault_threshold": 50,
+    "lockfile_stale_minutes": 60
+  }
+}

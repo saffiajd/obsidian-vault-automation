@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.claudevault.watch</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__HOME__/claude-vault/venv/bin/claude-vault</string>
+        <string>watch</string>
+        <string>--vault-path</string>
+        <string>__HOME__/Desktop/OpenClaw/Claude/Conversations</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>__HOME__/claude-vault/watch.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/claude-vault/watch-error.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>__HOME__/claude-vault/venv/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>
